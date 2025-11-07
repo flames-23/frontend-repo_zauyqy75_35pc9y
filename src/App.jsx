@@ -70,7 +70,7 @@ function App() {
           <header className="mb-6 flex items-center justify-between gap-4">
             <div>
               <h2 className="text-2xl font-semibold">Roadmap: {currentTopic}</h2>
-              <p className="text-white/70 mt-1">Auto-generated breakdown with explanations, practice questions, and a quick quiz in each section.</p>
+              <p className="text-white/70 mt-1">AI-generated breakdown with explanations, practice questions, and a quick quiz in each section.</p>
             </div>
             <button
               onClick={() => { setCurrentTopic(''); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
